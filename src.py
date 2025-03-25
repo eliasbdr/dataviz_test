@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 import plotly.graph_objects as go
+import numpy as np
+import hashlib
 
 
 def lecture(file, delimiter, decimal_separator, start_row, end_row=None, header_row=0):
